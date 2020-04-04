@@ -24,14 +24,24 @@ transform snow1:
     repeat
 
 transform snow2:
-    xalign 0.0 yalign 1.0
-    linear speed + 6.5 yalign 0.0
-    repeat
+    parallel:
+        yalign 1.0
+        linear speed + 6.5 yalign 0.0
+        repeat
+    parallel:
+        xalign 0.0
+        linear speed + 6.5 xalign +0.8
+        repeat
 
 transform snow3:
-    xalign 0.0 yalign 1.0
-    linear speed + 7.5 yalign 0.0
-    repeat
+    parallel:
+        yalign 1.0
+        linear speed + 7.5 yalign 0.0
+        repeat
+    parallel:
+        xalign 0.0
+        linear speed + 7.5 xalign -0.8
+        repeat
 
 # Игра начинается здесь:
 label start:
