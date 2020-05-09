@@ -1,13 +1,15 @@
+define rain_type = "" # might be "" or "1-"
+
 image rev_lightning:
     "lightning.png"
     xzoom -1
 
 image rain:
-    "rain1.png"
+    "rain[rain_type]1.png"
     0.2
-    "rain3.png"
+    "rain[rain_type]3.png"
     0.2
-    "rain2.png"
+    "rain[rain_type]2.png"
     0.2
     repeat
 
